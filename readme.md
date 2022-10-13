@@ -15,4 +15,4 @@ Integrantes:
  - [Clase 3](/Clase%203)
  - [Clase 4](/Clase%204)
  - [Clase 5](/Clase%205)
- - [Clase 6](/Clase%206l)
+ - [Clase 6](/Clase%206)
