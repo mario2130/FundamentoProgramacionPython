@@ -10,3 +10,22 @@ sumatorias.
 '''
 from mimodulo import *
 
+def seno_aprox(x, m):
+    sum = 0
+    factor = 1
+    for i in range(m):
+        sum += signo(i) * (x**factor)*factorial_reciproco(factor)
+        factor += 2
+    return sum
+
+def coseno_aprox(x, m):
+    sum = 0
+    factor = 0
+    for i in range(m):
+        sum += signo(i) * (x ** factor) * factorial_reciproco(factor)
+        factor += 2
+    return sum
+
+print('seno_aprox: ', seno_aprox(2, 3))
+print('coseno_aprox: ', coseno_aprox(2, 3))
+

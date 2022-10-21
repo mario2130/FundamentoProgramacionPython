@@ -1,8 +1,16 @@
 
 # Fundamento de programación en python
-## Sala 8 
+# Grupo 4
 
 Integrantes:
+
+Sala 7
+ - Felipe Arcos
+ - Ricardo Pezo
+ - David Giralt
+
+
+Sala 8
  - Rogelio Edgardo Moreno Araneda
  - Mario Ernesto Villanueva Gutierrez
  - Ruben Antonio Contreras Otaiza

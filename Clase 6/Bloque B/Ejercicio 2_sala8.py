@@ -12,8 +12,8 @@ Escriba un programa que construya dos nuevos archivos.
 
 
 file = open("pacientes.csv")
-outputyoungfile = open("jovenes.csv","w")
-outputolderfile = open("mayores.csv", "w")
+outputyoungfile = open("jovenes_sala8.csv","w")
+outputolderfile = open("mayores_sala8.csv", "w")
 
 for row in file:
     id, name, age = row.split(";")

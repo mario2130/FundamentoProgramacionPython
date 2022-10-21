@@ -16,7 +16,7 @@ Moya reprobado
 
 
 file = open("notas.txt")
-outputfile = open("reporte.txt","w")
+outputfile = open("reporte_sala8.txt","w")
 
 for row in file:
     student_info = row.strip().split(":")

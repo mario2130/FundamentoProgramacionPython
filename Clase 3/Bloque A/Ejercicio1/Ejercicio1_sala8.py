@@ -1,10 +1,10 @@
 '''
 Escriba una función que determine si un número es par o no.
 
->>> es_par(2)
+#>>> es_par(2)
 True
 
->>> es_par(7)
+#>>> es_par(7)
 False
 '''
 

@@ -25,7 +25,7 @@ from temperaturas import *
 
 def crear_reporte(temperaturas):
 
-    archivo = open("reporte.txt", "w")
+    archivo = open("reporte_sala8.txt", "w")
 
     for key in temperaturas:
         min, max = temperaturas[key]

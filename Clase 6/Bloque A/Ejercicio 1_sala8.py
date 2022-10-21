@@ -14,7 +14,7 @@ word_count = 0
 line_count = 0
 
 for row in file:
-    leters_count += len(row.strip())
+    leters_count += len(row.strip().replace(' ',''))
     word_count += len(row.strip().split())
     line_count += 1
 

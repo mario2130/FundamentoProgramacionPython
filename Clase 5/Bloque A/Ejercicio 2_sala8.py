@@ -68,5 +68,10 @@ def calcular_puntos(pais, resultados):
             match_result += evalua_resultado_partido(equipos, resultados[equipos],equipos[1])
 
     print(match_result)
+
+
 obtener_lista_equipos(resultados)
+calcular_puntos('Chile', resultados)
 calcular_puntos('Suiza', resultados)
+calcular_puntos('Espana', resultados)
+calcular_puntos('Honduras', resultados)

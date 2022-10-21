@@ -24,16 +24,20 @@ def codigo_hora(codigo):
     minutes = codigo[position+1::]
     print("minutes: ", minutes)
 
-    hourConverted = int(hours) % 24
-    print(hourConverted)
+    sumHours = 0
+    for i in hours:
+        sumHours += int(i)
+    hourConverted = int(sumHours) % 24
 
-    minuteConverted = int(minutes) % 60sfdsdf
-    print(minuteConverted)
+    sumMinutes = 0
+    for i in minutes:
+        sumMinutes += int(i)
+    minuteConverted = int(sumMinutes) % 60
 
     return str(hourConverted) + ":" + str(minuteConverted)
 
 
 
-codigo = input(str("ingrese codigo: "))
+codigo = '776199:68556'
 print(codigo_hora(codigo))
 

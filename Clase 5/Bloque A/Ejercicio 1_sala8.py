@@ -60,7 +60,7 @@ def tiempo_totalv2(dia):
     return suma
 
 
-dia = 'Lunes' #input('Ingrese dia: ')
+dia = input('Ingrese dia: ')
 print('Ese dia se presentaran', cantidad_de_artistas(dia), 'artistas')
 print('El primer artista del dia sera', nombre_primer_artistav2(dia))
 print('El ultimo artista del dia viene de', pais_origen_ultimo(dia))
