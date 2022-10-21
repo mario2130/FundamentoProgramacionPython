@@ -23,4 +23,5 @@ Sala 8
  - [Clase 3](/Clase%203)
  - [Clase 4](/Clase%204)
  - [Clase 5](/Clase%205)
- - [Clase 6](/Clase%206)
+ - [Clase 6](/Clase%206) 
+ - [Trabajo Final](/Ejercicio%20Final)
